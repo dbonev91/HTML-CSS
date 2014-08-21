@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- mestim meniuto pri responsiv designa -->
+<script src="js/buttonMover.js"></script>
+<!-- galeriqta -->
+<script src="js/galleryLoader.js"></script>
+<!-- Към бягащата форма за регистрация -->
+<script src="js/movingRegForm.js"></script>
+<script src="js/showingFunContent.js"></script>
+<script src="js/ajax.js"></script>
+<link rel="stylesheet" href="style/movingRegForm.css" type="text/css" />
+
+<!-- Bootstrap -->
+<link href="style/bootstrap.min.css" rel="stylesheet">
+	
+<!-- Site CSS -->
+<link href="style/homepage.css" rel="stylesheet">
+</head>
+<body>
+<div class='container-fluid'>
+    <header>
+    	<div class='col-lg-3 col-sm-6 col-xs-12 logo'><img src='Design/Logo.png' class='logo' alt="logo" />
+            <nav class="navbar navbar-inverse upNav" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Търси"><!--
+                        --><button type="submit" class="btn btn-custom"></button>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" class="forum">Форум</a></li>
+                        <li><a href="#">Стипендианти</a></li>
+                        <li><a href="#" class="galleryButton">Галерия</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Университета <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Заверки</a></li>
+                                <li><a href="#">Кандидатстване</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Виж всички</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--<ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+        <div class='col-lg-4 col-sm-6 col-xs-12 logoTxt'>
+        	<span class='middleHelper'></span><h1><a href="http://dbonev.com/SuperUni" title="index"><span class='redHead'>Super</span><span class='yellowHead'>Uni</span></a></h1>
+        </div>
+        <div class='col-lg-5 col-sm-12 col-xs-12 navAndReg'>
+        	<div class='reg'>
+	            <a class='logButton' href='#'>Вход</a>
+                 | 
+            	<a class='regButton' href='#'>Регистрация</a>
+            </div>
+            <nav class="navbar navbar-inverse downNav" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Търси"><!--
+                        --><button type="submit" class="btn btn-custom"></button>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" class="forum">Форум</a></li>
+                        <li><a href="#">Стипендианти</a></li>
+                        <li><a href="#" class="galleryButton">Галерия</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Университета <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Заверки</a></li>
+                                <li><a href="#">Кандидатстване</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Виж всички</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--<ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <main class="mainContent">
+        <section class="col-lg-4 col-sm-6 col-xs-12 inBody">
+            <header>За университета:</header>
+            <article>
+                <fig class="headFig">
+                    <img src="Design/Unitov2.png" title="За университета" alt="unito" />
+                </fig>
+                <figcaption>
+                    Подготвяме млади и талантливи супергерой, за реализацията си и работна позиция, като такива.
+                    Ако чувствате, че силата е във вас, моля свържете се с нас. За повече информация или въпроси, може да посетите
+                    нашият форум.<br />
+                    Желаем ви много успехи! От екипа на SuperUni!
+                </figcaption>
+            </article>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 candidate">Кандидатствай</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 fastTrackCandidate">FastTrack Курсове</div>
+        </section>
+        <section class="col-lg-4 col-sm-6 col-xs-12 inBody">
+            <header>Fast Track курсове:</header>
+            <article>
+                <fig class="headFig">
+                    <img src="Design/FastTrackPrototype.png" title="Fast Track курсове" alt="fastTrack" />
+                </fig>
+                <figcaption>
+                    Fast Track курсовете, позволяват, да усвоитедадена способност за максимано кратък период от време! Те могат да
+                    са изключително полезни за вашето бъдещо развитие, като супер герои.<br />
+                    Желаем ви много успехи! От екипа на SuperUni!
+                </figcaption>
+            </article>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 candidate">Запиши се</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 fastTrackCandidate">Виж всички</div>
+        </section>
+        <section class="col-lg-4 col-md-12 col-sm-12 col-xs-12 inBody">
+            <header>Новини:</header>
+            <article class="news">
+                <fig class="col-lg-4 col-sm-3 col-xs-12"><img src="Design/NewsFigs/fastTrack.jpg" title="Fast Track курсове"alt="FastTrack" /></fig>
+                <figcaption class="col-lg-8 col-sm-3 col-xs-12"><strong>Очаквайте скоро, много нови Fast Track курсове!</strong></figcaption>
+                <div class="clear"></div>
+                <fig class="col-lg-4 col-sm-3 col-xs-12"><img src="Design/NewsFigs/speed.jpg" title="Семинар: По - бърз от куршум!" alt="speed" /></fig>
+                <figcaption class="col-lg-8 col-sm-3 col-xs-12"><strong>Днес, от 18:00ч, може да посетите семинара: "По - бърз от куршум!"</strong></figcaption>
+                <div class="clearSec"></div>
+                <fig class="col-lg-4 col-sm-3 col-xs-12"><img src="Design/NewsFigs/moonPrototype.jpg" title="Лятна почивка на луната!" alt="moon" /></fig>
+                <figcaption class="col-lg-8 col-sm-3 col-xs-12"><strong>Това лято, лятната почивка ще е на луната. Всички са поканени!</strong></figcaption>
+                <div class="clear"></div>
+                <fig class="col-lg-4 col-sm-3 col-xs-12"><img src="Design/NewsFigs/rengenEyesPrototype.jpg" alt="rengenEyes" title="Fast Track курс по ренгеново зрение" /></fig>
+                <figcaption class="col-lg-8 col-sm-3 col-xs-12"><strong>Следващата седмица, започва Fast Track курс по ренгеново зрение!</strong></figcaption>
+            </article>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 candidate">Виж всички</div>
+        </section>
+    </main>
+    <div class="clearfix"></div>
+    <footer>
+        <section>
+            <article class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 candidate">Кандидатствай</div>
+                <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 fastTrackCandidate">FastTrack Курсове</div>
+            </article>
+            <article class="col-lg-2 col-md-3 col-sm-4 col-xs-6 footArticle">
+                <header>Ние</header>
+                <ul>
+                    <li>За нас</li>
+                    <li>Стипендианти</li>
+                </ul>
+            </article>
+            <article class="col-lg-2 col-md-3 col-sm-4 col-xs-6 footArticle">
+                <header>Приятели</header>
+                <ul>
+                    <li><a href="http://softuni.bg" title="Софтуерен Университет">СофтУни</a></li>
+                    <li>Team PORUNGA</li>
+                </ul>
+            </article>
+            <article class="col-lg-4 col-md-3 col-sm-4 col-xs-12 footArticle footContacts">
+                <header>Контакти</header>
+                <ul>
+                    <li><a href="http://facebook.com" title="facebook"><img src="https://softuni.bg/Content/design/facebook.png" alt="facebook" title="facebook" /></a></li>
+                    <li><a href="http://twitter.com" title="twitter"><img src="https://softuni.bg/Content/design/twitter.png" alt="twitter" title="twitter" /></a></li>
+                    <li><a href="http://plus.google.com" title="google-plus"><img src="https://softuni.bg/Content/design/googleplus.png" alt="google-plus" title="google-plus" /></a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</div>
+<!-- Бягаща форма за регистрация, заедно с прозорец, от които изкача смешно садържание -->
+<div class='funContent'>
+    <span class='closeFunContent'>
+    [ X ]
+    </span>
+    <header>
+    </header>
+    <main>
+        <section class="forFun">
+            <article class='txtHolder'>
+            </article>
+        </section>
+        <section class="forFun">
+            <article class='imgHolder'>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</div>
+<div class='regForm'>
+    <form>
+        <span class='regFieldNames'>Име:</span><span class='regFieldInputs'><input type='text' /></span><br />
+        <span class='regFieldNames'>Парола:</span><span class='regFieldInputs'><input type='text' /></span><br />
+        <input type='hidden' class='mouseTurns' />
+        <input type='button' value='Регистрация' />
+    </form>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

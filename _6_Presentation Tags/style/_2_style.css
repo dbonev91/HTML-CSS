@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Animated;
+    src: url("../fonts/Animated.ttf");
+}
+
+body {
+    position: relative;
+    background: url("../img/HawaiiBackground.png"),
+    -webkit-radial-gradient(26% 24%, circle closest-corner, #eaebe4, #edff47 15%,#e8e7dc 40%,#3a75cf 84%);
+    background-repeat: no-repeat;
+    -webkit-background-size: 900px 600px;
+
+}
+
+body h1 {
+    font-family: Animated;
+    font-size: 45px;
+    color: #FDBC21;
+    padding-left: 450px;
+}
+
+.vladiOne {
+    position: absolute;
+    width: 270px;
+    height: 350px;
+    top: 200px;
+    left: 20px;
+}
+
+.petia {
+    position: absolute;
+    width: 240px;
+    height: 380px;
+    top: 170px;
+    left: 170px;
+}
+
+.vladiTwo {
+    position: absolute;
+    width: 215px;
+    height: 350px;
+    top: 190px;
+    left: 680px;
+}
+
+.nakov {
+    position: absolute;
+    width: 220px;
+    height: 400px;
+    top: 130px;
+    left: 420px;
+}
+
+.alex {
+    position: absolute;
+    width: 240px;
+    height: 375px;
+    top: 170px;
+    left: 510px;
+}
+
+.tedi {
+    position: absolute;
+    width: 160px;
+    height: 220px;
+    top: 330px;
+    left: 270px;
+}

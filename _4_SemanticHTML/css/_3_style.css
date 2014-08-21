@@ -1,0 +1,40 @@
+body, main, h1, article, section, a, img, iframe{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Tahoma;
+}
+img{
+    margin-bottom: 300px;
+}
+.imgHolder{
+    width: 300px;
+}
+.imgArticle{
+    float: left;
+}
+h1{
+    text-align: center;
+    color: #f2c106;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    font-style: italic;
+}
+.imgFrame{
+    margin-right: 45px;
+    border: 2px solid #f2c106;
+}
+main{
+    border: 1px solid black;
+    width: 720px;
+    background-color: black;
+    padding: 35px;
+    border-radius: 20px;
+}

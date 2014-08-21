@@ -1,0 +1,103 @@
+﻿body, div, header, nav, ul, li, a, h1, h2, section, article, main, span {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Tahoma";
+    font-size: 16px;
+    background: url("background.png") repeat-x;
+}
+a:link, a:hover, a:link, a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+#wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+li{
+    list-style-type: none;
+}
+.navbar-custom{
+    background: green;
+}
+.navbar-custom li:hover{
+    background: lightgreen;
+}
+.navbar-header{
+    margin-top: -5px;
+}
+main > section:first-child{
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding: 20px 20px 40px 20px;
+}
+main > section:first-child article{
+    font-size: 1.85rem;
+}
+main > section:nth-child(2){
+    margin-top: 15px;
+    padding: 0px 0px 30px 0px;
+}
+main > section:nth-child(2) article{
+    padding: 0px;
+}
+main > section:nth-child(2) article:nth-child(2){
+    padding: 0px 15px 0px 0px;
+}
+main > section:nth-child(2) article:nth-child(1){
+    padding: 0px 15px 0px 0px;
+}
+article{
+    font-size: 1.1rem;
+}
+article h2{
+    font-size: 2.5rem;
+}
+.hallo{
+    font-size: 4.5rem;
+}
+span{
+    width: 96px;
+    height: 30px;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+}
+aside li{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px 1px 0px 1px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 0px 0px 15px;
+}
+aside li:hover{
+    background: lightgreen;
+    cursor: pointer;
+}
+aside li:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+aside li:last-child{
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: 1px solid lightgray;
+}
+footer{
+    height: 100px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px 0px 0px 0px;
+    line-height: 100px;
+}
+/*@media only screen and (max-width: 1190px){
+    #wrapper{
+        width: 100%;
+    }
+    aside{
+        margin-top: 20px;
+    }
+}*/

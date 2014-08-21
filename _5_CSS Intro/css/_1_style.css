@@ -1,0 +1,130 @@
+body, main, table, tr, td{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:"Tahoma";
+}
+main{
+	background: #00923e;
+	width: 890px;
+	height: 324px;
+	position: absolute;
+}
+table{
+	position: relative;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 12px;
+	border: 2px solid;
+	width: 860px;
+}
+td, th{
+	height: 46px;
+	border: 1px solid;
+}
+th{
+	font-size: 23px;
+	background: #f8c711;
+}
+tr.even > td{
+	background: #c8c8c8;
+}
+tr.odd > td{
+	background: #FFFFFF;
+}
+.left.top{
+	border-radius: 12px 0px 0px 0px;
+}
+.right.top{
+	border-radius: 0px 12px 0px 0px;
+}
+.bottom.right{
+	border-radius: 0px 0px 12px 0px;
+}
+.bottom.left{
+	border-radius: 0px 0px 0px 12px;
+}
+.fRight{
+	margin-right: 5px;
+}
+.fLeft{
+	margin-left: 5px;
+}
+span.fRight > img{
+	margin-left: 5px;
+}
+span.fLeft > img{
+	margin-right: 5px;
+}
+select.green{
+	color: green;
+	width: 30px;
+	height: 30px;
+}
+select.red{
+	color: red;
+	width: 30px;
+	height: 30px;
+}
+.top{
+	border-top: 0px;
+}
+.left{
+	border-left: 0px;
+}
+.right{
+	border-right: 0px;
+}
+.bottom{
+	border-bottom: 0px;
+}
+th.first{
+	text-align:right;
+}
+th.second{
+	text-align: center;
+}
+th.third{
+	text-align: left;
+}
+th.fourth{
+	text-align: center;
+}
+th.fivth{
+	text-align: left;
+}
+.first{
+	text-align: right;
+	width: 148px;
+}
+.second{
+	text-align: center;
+	width: 84px;
+}
+.third{
+	text-align: left;
+	width: 148px;
+}
+.fourth{
+	text-align: center;
+	width: 82px;
+}
+.fivth{
+	text-align: right;
+	width: 124px;
+}
+.sixth{
+	text-align: center;
+	vertical-align:middle;
+	width: 94px;
+}
+.seventh{
+	text-align: left;
+	width: 122px;
+}
+.eight{
+	text-align: center;
+	vertical-align:middle;
+	width: 50px;
+}

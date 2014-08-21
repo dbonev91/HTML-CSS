@@ -1,0 +1,67 @@
+﻿body, section, span, a, ul, li, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 16px;
+    font-family: Tahoma;
+}
+a:hover, a:link, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.wrapper{
+    width: 80%;
+    background: #254669;
+    height: 310px;
+    margin: 0px auto;
+    text-align: center;
+}
+section{
+    width: 15%;
+    height: 280px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 30px;
+    text-align: left;
+}
+section:last-child{
+    width: 300px;
+}
+h2{
+    color: #FF8D38;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+a{
+    font-size: 0.8rem;
+}
+li.buttonsLi{
+    border: 2px solid #FF8D38;
+    width: 80%;
+    height: 30px;
+    margin: 0px auto;
+    line-height: 30px;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+li.classicLi, li.copyrightLi{
+    color: white;
+    font-size: 0.8rem;
+    margin: 5px;
+    margin-left: 0px;
+}
+img{
+    margin-top: 20px;
+}
+img:hover{
+    opacity: 0.7;
+}
+.fbBackground{
+    background: #F1F3F6;
+}

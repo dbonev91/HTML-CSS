@@ -1,0 +1,65 @@
+body
+{
+    font-family: Tahoma;
+    margin: 0px;
+}
+.aside
+{
+    width: 200px;
+    float: left;
+}
+.first
+{
+    width: 95%;
+}
+.second
+{
+    width: 45%;
+}
+.third
+{
+    width: 28%;
+    margin-right: 2%;
+}
+.clear
+{
+    clear: both;
+}
+span
+{
+    font-style: italic;
+    font-size: 11px;
+}
+label
+{
+    font-style: italic;
+    font-size: 11px;
+}
+h1
+{
+    text-align: center;
+    width: 400px;
+    margin: 0px;
+}
+form
+{
+    background-color: pink;
+    width: 400px;
+    height: 265px;
+    padding: 5px;
+}
+#submit
+{
+    width: 94%;
+    border-radius: 0%;
+    border: 1px solid lightgray;
+    margin-top: 2%;
+}
+.malak1
+{
+    margin-right: 24%;
+}
+.malak2
+{
+    margin-right: 22%;
+}

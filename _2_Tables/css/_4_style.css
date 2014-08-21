@@ -1,0 +1,29 @@
+table{
+    background-color: #234465;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+.arrow{
+    text-align: left;
+}
+input{
+    height: 28px;
+    width: 170px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #C9C9C9;
+}
+.search{
+    top: 30px;
+}
+.searchImg{
+    position: relative;
+    top:7px;
+}
+.searchField{
+    position: relative;
+    top: -5px;
+}

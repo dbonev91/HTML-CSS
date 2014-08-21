@@ -1,0 +1,127 @@
+body, header, aside, nav, ul, li, section, article, div, footer, a, span{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/_2_/colorful_dots_on_black.jpg);
+	font-family:Tahoma, Geneva, sans-serif;
+}
+body > header{
+	background: linear-gradient(to right, rgba(255,38,0,1) 0%, rgba(250,5,5,1) 33%, rgba(0,179,42,1) 33%, rgba(0,199,7,1) 66%, rgba(24,85,240,1) 66%, rgba(39,48,230,1) 100%);
+	height: 50px;
+	color: yellow;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+aside{
+	background: rgba(255, 255, 255, 0.9);
+	display: inline-block;
+	border-radius: 20px;
+	width: 15%;
+	vertical-align:top;
+	margin-top:30px;
+	margin-left: 10px;
+	padding: 15px;
+}
+li > a{
+	color: black;
+	text-decoration:none;
+	
+}
+li > a[href='ColorKitchen.html#lorem']{
+	color: gray;
+}
+aside nav > header{
+	font-size: 18px;
+	text-decoration:underline;
+	font-weight: bold;
+}
+section{
+	display: inline-block;
+	width: 78%;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+li{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+li > a{
+	padding: 5px;
+	position: absolute;
+	margin-top: -5px;
+	width: 13%;
+}
+li > a[href='ColorKitchen.html#webColors']:hover{
+	background-color: red;
+	border-radius:5px;
+}
+li > a[href='ColorKitchen.html#webSafeColors']:hover{
+	background-color: orange;
+	border-radius:5px;
+}
+li > a[href='ColorKitchen.html#RGB']:hover{
+	background-color: yellow;
+	border-radius:5px;
+}
+li > a[href='ColorKitchen.html#RGBA']:hover{
+	background-color: green;
+	border-radius:5px;
+}
+li > a[href='ColorKitchen.html#HSLHSV']:hover{
+	background-color: blue;
+	border-radius:5px;
+}
+li > a[href='ColorKitchen.html#lorem']:hover{
+	background-color: purple;
+	border-radius:5px;
+}
+section > article{
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+article > header{
+	height: 40px;
+	font-size:18px;
+	border-radius: 10px;
+	line-height:40px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+article > header[id='webColors']{
+	background: red;
+	color: white;
+}
+article > header[id='webSafeColors']{
+	background: orange;
+	color: black;
+}
+article > header[id='RGB']{
+	background: yellow;
+	color: black;
+}
+article > header[id='RGBA']{
+	background: green;
+	color: white;
+}
+article > header[id='#HSLHSV']{
+	background: blue;
+	color: white;
+}
+article > header[id='#lorem']{
+	background: purple;
+	color: white;
+}
+article footer > a{
+	color: gray;
+	font-style: italic;
+}
+article > div:first-letter{
+	font-size: 40px;
+}
+article > div:first-line{
+	font-style: italic;
+}

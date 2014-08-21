@@ -1,0 +1,39 @@
+body{
+    font-family: Calibri;
+}
+ul{
+    padding-left: 40px;
+}
+li{
+    padding-left: 20px;
+}
+.home{
+    border: 1px solid #C9C9C9;
+    width: 330px;
+    border-radius: 5%;
+}
+.header{
+    padding-left: 9px;
+    padding-top: 5px;
+}
+div{
+    padding-left: 0px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+.first{
+    list-style-type: lower-alpha;
+}
+.second{
+    list-style-type: decimal;
+}
+.second-first{
+    list-style-type: circle;
+}
+.second-second-first{
+    list-style-type: square;
+}
+.third{
+    list-style-type: disc;
+}

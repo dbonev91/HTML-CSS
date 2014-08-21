@@ -1,0 +1,167 @@
+body, header, h1, h2, h5, h6, nav, div, span, section, article, select, option, ul, li{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Arial";
+}
+header h1{
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+nav ul{
+    margin-left: 40px;
+}
+header{
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #EDEDED;
+    height: 130px;
+}
+li.header{
+    display: block;
+    float: left;
+    margin-right: 50px;
+    color: #848484;
+}
+.searchContainer{
+    float: right;
+}
+.searchField{
+    padding-left: 5px;
+    height: 20px;
+    border: 1px solid #E4E4E4;
+    border-right: 0px;
+}
+aside{
+    color: #3173AE;
+    display: block;
+    float: left;
+    padding-top: 40px;
+    width: 20%;
+}
+main{
+    width: 60%;
+    border: 0px solid;
+    display: block;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.byUser{
+    display: block;
+    color: #848484;
+    margin-bottom: 30px;
+}
+.lighter{
+    color: #CAC3BF;
+}
+.underlined{
+    border-bottom: 1px solid #EDEDED;
+}
+.cReading{
+    line-height: 60px;
+}
+.pReading{
+    line-height: 60px;
+}
+.rightAside{
+    display: block;
+    position: relative;
+}
+.rightAsideParts{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.searchField{
+    vertical-align: top;
+}
+select{
+    display: block;
+    position:relative;
+    width: 100px;
+}
+img[title='search']{
+    margin-right:40px;
+}
+.blog{
+    position: relative;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+.lang{
+    position: relative;
+    display: block;
+    margin-bottom: 11px;
+}
+.footTwitter{
+    position: relative;
+    display: block;
+    font-style: italic;
+    color: #87817F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+}
+.downFooter{
+    display: block;
+    position: relative;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.h1foot{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+li{
+    display: block;
+}
+.pagesFoot{
+    display: block;
+    color: #FFFFFF;
+}
+.footPart{
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.footHead{
+    color: #FFFBFF;
+    margin-bottom: 10px;
+}
+.footContent, .copyright{
+    color: #7A7A7C;
+}
+.pagesFoot ul{
+    margin-left: 5px;
+}
+a, a:hover, a:active, a:link{
+    text-decoration: none;
+    color: #3173AE;
+}
+.rssFeed{
+    color: white;
+}
+.leftSide{
+    display: block;
+}
+.leftSideLink{
+    display: block;
+    position: relative;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>FBReg</title>
+    <link rel="stylesheet" href="css/_4_style.css" type="text/css" />
+</head>
+<body>
+<main>
+    <article class="logo">
+        <img src="img/FBLogo.jpg" />
+    </article>
+    <article class="reg">
+        <h4>Registration</h4>
+    </article>
+    <article class="safe">
+        It's safe and it will always be!
+    </article>
+    <article class="forms">
+        <form name="clearForm" class="clearForm">
+            <fieldset>
+                <legend align="center">None-important Information</legend>
+                <input type="text" placeholder="First Name" class="half" /><input type="text" placeholder="Last Name" class="half" /><br />
+                <input type="email" placeholder="Your Email" class="half" /><input type="text" placeholder="Phone Number" class="half" /><br />
+                <input type="password" placeholder="Password" class="half" /><input type="text" placeholder="Website" class="half" /><br />
+                <span class="birthday">Birthday</span><br />
+                <input type="datetime" class="whole" /><br />
+                <input type="radio" name="sex" id="sexMale" checked /><label for="sexMale">Male</label>
+                <input type="radio" name="sex" id="sexFemale" /><label for="sexFemale">Female</label>
+                <input type="radio" name="sex" id="sexOther" /><label for="sexOther">Other</label>
+            </fieldset>
+            <input type="submit" value="Clear Form" />
+        </form>
+        <form name="regForm" class="regForm">
+            <fieldset>
+                <legend align="center">Important Information * required</legend>
+                <select class="half">
+                    <option value="country">Country</option>
+                </select>
+                <input type="text" placeholder="Village" class="half" />
+                <input type="text" placeholder="District" class="half" /><br />
+                <input type="text" placeholder="Street" class="half" />
+                <input type="text" placeholder="Nr" class="small">
+                <input type="text" placeholder="Floor" class="small">
+                <input type="text" placeholder="Ap Nr" class="small"><br />
+                <span>Door Color</span><br />
+                <input type="color" class="half" value="#ff00ff" /><input type="text" placeholder="Water Meter Nr" class="half" />
+                <select class="half">
+                    <option value="Aunt Panties Size">Aunt Panties Size</option>
+                </select><br />
+                <span>More Personal Information</span><br />
+                <textarea placeholder="Give us more information!!!"></textarea>
+            </fieldset>
+            <input type="submit" value="Register" />
+        </form>
+    </article>
+</main>
+</body>
+</html>

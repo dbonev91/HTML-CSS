@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    font-family: Calibri;
+}
+h1{
+    color: #ffd052;
+    padding-left: 20px;
+}
+li{
+    color: white;
+    opacity: 1;
+}
+ul{
+    list-style-type: square;
+}
+ul > li{
+    color: #ffd052;
+}
+ul > li > h2{
+    color: #ffffe3;
+}
+span{
+    color: #ffd052;
+}
+.divKon{
+    background-image: url('../img/_5_backgroundV2.jpg');
+    background-size: 1000px, 563px;
+    width: 1000px;
+    height: 563px;
+}
+.secDivKon{
+    background-color: #C1C1C1;
+    background: rgba(255,255,255,.2);
+    border: 1px solid white;
+    color: #ffffe3;
+    width: 95%;
+    font-weight: bold;
+}

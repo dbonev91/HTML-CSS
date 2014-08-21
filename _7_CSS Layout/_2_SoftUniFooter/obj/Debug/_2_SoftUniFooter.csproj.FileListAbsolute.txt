@@ -1,0 +1,6 @@
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\_2_SoftUniFooter.csprojResolveAssemblyReference.cache
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

@@ -1,0 +1,67 @@
+body, div, header, span, a{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Tahoma;
+    font-size: 16px;
+}
+.wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    background: #234465;
+    height: 100px;
+}
+.leftSide{
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+
+    border: 1px solid red;
+}
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    height: 55px;
+}
+.rightSide{
+    width: 69%;
+    text-align: right;
+    display: inline-block;
+    border: 1px solid yellow;
+}
+.rightUp{
+    display: block;
+    border: 1px solid red;
+}
+li{
+    display: inline-block;
+}
+.search{
+    height: 31px;
+    width: 200px;
+    border: solid lightgray;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+.button{
+    background: url("../img/searchButton.jpg") no-repeat center;
+    background-size: 34px 35px;
+    width: 34px;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 0px 5px 5px 0px;
+}
+.middleHelper{
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.topHelper{
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}

@@ -1,0 +1,6 @@
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\bin\WebApplication4.dll.config
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\bin\WebApplication4.dll
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\bin\WebApplication4.pdb
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\obj\Debug\_5_ResponsiveAndPretty.csprojResolveAssemblyReference.cache
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\obj\Debug\WebApplication4.dll
+c:\users\katq\documents\visual studio 2013\Projects\WebApplication1\WebApplication4\obj\Debug\WebApplication4.pdb

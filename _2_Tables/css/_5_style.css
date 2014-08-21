@@ -1,0 +1,66 @@
+.mainTbl{
+    width: 400px;
+    height: 500px;
+}
+.food{
+    height: 140px;
+}
+.nesy{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    font-size: 60px;
+    text-align: center;
+    height: 80px;
+}
+.google{
+    text-align: left;
+    vertical-align: top;
+    width: 140px;
+}
+.github{
+    text-align: right;
+    vertical-align: top;
+}
+.fb{
+    text-align: center;
+    vertical-align: top;
+}
+.GMail{
+    text-align: left;
+    vertical-align: middle;
+}
+.youtube{
+    text-align: center;
+    vertical-align: bottom;
+}
+.year{
+    text-align: right;
+    vertical-align: middle;
+}
+.food{
+    text-align: right;
+    vertical-align: bottom;
+}
+.game{
+    text-align: left;
+    vertical-align: bottom;
+}
+.sociallife{
+    text-align: center;
+    vertical-align: middle;
+}
+.sleep{
+    text-align: center;
+    vertical-align: middle;
+}
+.beer{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.wc{
+    text-align: left;
+    vertical-align: middle;
+}

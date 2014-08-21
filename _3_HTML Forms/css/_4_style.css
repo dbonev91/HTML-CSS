@@ -1,0 +1,105 @@
+body, main, div, h3, h4{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Tahoma;
+    color: white;
+}
+main{
+    width: 689px;
+    background-color: #3b5997;
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    padding: 15px;
+}
+main article.logo img{
+    margin-bottom: 20px;
+}
+main article.reg{
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+main article.safe{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+form.clearForm fieldset{
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 210px;
+}
+form.regForm fieldset{
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 210px;
+}
+.whole{
+    margin: 5px;
+}
+.half{
+    width: 100px;
+    margin: 5px;
+}
+.small{
+    width: 50px;
+    margin: 5px;
+}
+main article form.clearForm{
+    display: table-cell;
+    text-align: left;
+    float: left;
+}
+main article form.regForm{
+    display: table-cell;
+    text-align: left;
+}
+main article form.clearForm input[type='submit']{
+    width: 257px;
+    height: 50px;
+    color: #3b5997;
+    font-size: 18px;
+    background-color: #dddddd;
+    border: 0px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 2px;
+}
+main article form.regForm input[type='submit']{
+    width: 377px;
+    height: 50px;
+    color: #3b5997;
+    font-size: 24px;
+    background-color: #dddddd;
+    border: 0px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 2px;
+}
+main article form.clearForm input#sexOther{
+    margin-bottom: 40px;
+}
+main article form.regForm textarea{
+    width: 96%;
+    height: 45px;
+    margin: 5px;
+}
+form.clearForm>fieldset{
+    margin-right:50px;
+}
+legend{
+    font-weight: bold;
+    font-size: 14px;
+}
+main article form fieldset span, label{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+main article form.regForm input[type='color']{
+    height: 22px;
+}

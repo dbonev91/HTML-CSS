@@ -1,0 +1,104 @@
+body, main, div, span{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 16px;
+    font-family: "Tahoma";
+}
+main{
+    width: 500px;
+    height: 190px;
+    border-top: 6px dotted yellow;
+    border-left: 4px dashed red;
+    border-right: 10px solid green;
+    border-bottom: 8px double blue;
+    text-align: center;
+}
+div.up{
+    text-align: center;
+    height: 65px;
+}
+.textShadows{
+    font-size: 2.3rem;
+    text-shadow: 9px 9px 7px gray;
+    display: inline-block;
+    vertical-align: middle;
+}
+.down .heading, .fields{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.down .heading{
+    text-shadow: 11px 11px 6px gray;
+}
+.down{
+    height: 75px;
+    margin-top: 15px;
+    box-shadow:
+    0 0 0 2px #FE0006,
+    0 0 0 3px #1A8F00,
+    0 0 0 5px #F4FF00,
+    0 0 0 7px #4343ff;
+    border-radius: 37px;
+    width: 440px;
+    display: inline-block;
+}
+.down > .downUp, .downDown{
+    width: 100%;
+    height: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+input{
+    text-align: center;
+    background: #D8921A;
+    border-bottom: 3px solid #A56400;
+    border-right: 3px solid #A56400;
+    border-left: 3px solid #FFA600;
+    border-top: 3px solid #FFA600;
+}
+.baloon1, .baloon2, .baloon3{
+    opacity: 0.5;
+    background: gray;
+    position: absolute;
+    text-align: center;
+}
+.baloon1{
+    top: 111px;
+    left: 385px;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+}
+.baloon2{
+    top: 79px;
+    left: 422px;
+    width: 34px;
+    height: 34px;
+    border-radius: 16px;
+}
+.baloon3{
+    width: 106px;
+    height: 68px;
+    top: 15px;
+    left: 470px;
+    border-radius: 34px;
+}
+.insideBallon1, .insideBallon2, .insideBallon3{
+    vertical-align: middle;
+}
+.insideBallon2{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 3px dotted white;
+    border-radius: 22px;
+}
+.middleHelper{
+    vertical-align: middle;
+    height: 100%;
+    display: inline-block;
+}
